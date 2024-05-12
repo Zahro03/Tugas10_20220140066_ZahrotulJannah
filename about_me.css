@@ -1,0 +1,34 @@
+body {
+    background-color: pink; /* Mengatur latar belakang menjadi warna pink */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    color: #fff; /* Warna teks putih */
+}
+
+.back {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back a {
+    background-color:white; 
+    color: #000; /* Gunakan warna hitam untuk teks */
+    text-decoration: none;
+    width: 70px;
+    height: 40px;
+    border: transparent;
+    border-radius: 5px;
+    font-size: 18px; /* Perbesar ukuran teks */
+    display: inline-block;
+    line-height: 40px; /* Pusatkan teks secara vertikal */
+    text-align: center;
+}
+
+.back a:hover {
+    background-color: #ccc; /* Warna latar belakang saat dihover */
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Biodata Mahasiswa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <fieldset>
+                <legend>Biodata Mahasiswa</legend>
+
+                <p><input type="text" name="nama" placeholder="Nama"></p>
+                <p><input type="text" name="nim" placeholder="NIM"></p>
+                <p><input type="text" name="alamat" placeholder="Alamat"></p>
+                <p><input type="password" name="password" placeholder="Password"></p>
+                <p>
+                    Jenis Kelamin:
+                    <label><input type="radio" name="jenis_kelamin" value="Laki-laki" checked>Laki-laki</label>
+                    <label><input type="radio" name="jenis_kelamin" value="Perempuan">Perempuan</label>
+                </p>
+                <p>
+                    Program Studi:
+                    <select name="program_studi">
+                        <option value="Teknologi Informasi">Teknologi Informasi</option>
+                        <option value="Sistem Informasi">Sistem Informasi</option>
+                        <option value="Teknik Elektro">Teknik Elektro</option>
+                    </select>
+                </p>
+                <p>
+                    Kota Asal:
+                    <select name="kota_asal">
+                        <option value="Semarang">Semarang</option>
+                        <option value="Bandung">Bandung</option>
+                        <option value="Jambi">Jambi</option>
+                        <option value="Surabaya">Surabaya</option>
+                    </select>
+                </p>
+                <p>
+                    Apa yang membuat Anda tertarik pada program studi ini?:<br>
+                    <textarea name="alasan" rows="5" placeholder="Tuliskan jawaban Anda di sini"></textarea>
+                </p>
+                <p><input type="submit" value="Submit"></p>
+            </fieldset>
+        </form>
+        <button class="back"><a href="index.html">Home</a></button>
+    </div>
+</body>
+</html>

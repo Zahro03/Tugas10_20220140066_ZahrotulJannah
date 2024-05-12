@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobi Mahasiswa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <fieldset>
+                <legend>Hobi Mahasiswa</legend>
+
+                <p>Nama : <input type="text" name="nama"></p>
+                <p>NIM : <input type="text" name="nim"></p>
+                <p>Hobi Utama :</p>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="hobi_utama" value="Olahraga">Olahraga</label><br>
+                    <label><input type="checkbox" name="hobi_utama" value="Musik">Musik</label><br>
+                    <label><input type="checkbox" name="hobi_utama" value="Membaca">Membaca</label><br>
+                    <label><input type="checkbox" name="hobi_utama" value="Traveling">Traveling</label><br>
+                    <label><input type="checkbox" name="hobi_utama" value="Kuliner">Kuliner</label><br>
+                </div>
+                <p>Hobi Lainnya :</p>
+                <p><textarea rows='5' cols='40' name="hobi_lainnya" placeholder="Tuliskan hobi lainnya jika ada"></textarea></p>
+                <p><input type="submit" value="Submit"></p>
+            </fieldset>
+        </form>
+        <button class="back"><a href="index.html">Home</a></button>
+    </div>
+</body>
+</html>

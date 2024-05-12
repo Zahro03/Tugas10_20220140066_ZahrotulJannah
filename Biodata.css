@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+legend {
+    font-size: 30px; /* Memperbesar ukuran font legend */
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+textarea,
+select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 0 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 18px; /* Memperbesar ukuran font input dan textarea */
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+input[type="submit"],
+.back a {
+    margin-top: 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 15px 30px; /* Memperbesar padding tombol submit */
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px; /* Memperbesar ukuran font tombol submit */
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover,
+.back a:hover {
+    background-color: #45a049;
+}
